@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47EB3B2B2B3473EC626DC4F9 /* Pods_Aircraft.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43BB45644CB38B4108E47230 /* Pods_Aircraft.framework */; };
+		5C8771B12AD6A33E008184F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CDAD1372ACC80D500E76EB1 /* Assets.xcassets */; };
+		5CDAD1312ACC80D400E76EB1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAD1302ACC80D400E76EB1 /* SceneDelegate.swift */; };
+		5CDAD1362ACC80D400E76EB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CDAD1342ACC80D400E76EB1 /* Main.storyboard */; };
+		5CDAD14D2ACC819300E76EB1 /* InformationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAD1482ACC819200E76EB1 /* InformationsViewController.swift */; };
+		5CDAD14E2ACC819300E76EB1 /* AbountAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAD1492ACC819200E76EB1 /* AbountAppViewController.swift */; };
+		5CDAD14F2ACC819300E76EB1 /* AircraftsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAD14A2ACC819200E76EB1 /* AircraftsViewController.swift */; };
+		5CDAD1502ACC819300E76EB1 /* GameQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAD14B2ACC819200E76EB1 /* GameQuizViewController.swift */; };
+		5CDAD1512ACC819300E76EB1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAD14C2ACC819200E76EB1 /* HomeViewController.swift */; };
+		5CDAD1532ACC819C00E76EB1 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAD1522ACC819B00E76EB1 /* Models.swift */; };
+		5CDAD1562ACC81B100E76EB1 /* AircraftsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAD1552ACC81B000E76EB1 /* AircraftsCollectionViewCell.swift */; };
+		5CDAD1582ACC825600E76EB1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAD1572ACC825600E76EB1 /* Extensions.swift */; };
+		5CDAD15A2ACD37D300E76EB1 /* ObjectInformations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAD1592ACD37D300E76EB1 /* ObjectInformations.swift */; };
+		5CDAD15C2ACD623200E76EB1 /* InformationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAD15B2ACD623200E76EB1 /* InformationTableViewCell.swift */; };
+		5CDAD15E2ACEB89D00E76EB1 /* QuizBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAD15D2ACEB89D00E76EB1 /* QuizBrain.swift */; };
+		5CDC6A632AD17FAA00DA0226 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAD12E2ACC80D400E76EB1 /* AppDelegate.swift */; };
+		5CEC31FE2AD2A6240000C7C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CDAD1392ACC80D500E76EB1 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C4FBFDC37D281437C195995 /* Pods-Aircraft.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aircraft.release.xcconfig"; path = "Target Support Files/Pods-Aircraft/Pods-Aircraft.release.xcconfig"; sourceTree = "<group>"; };
+		43BB45644CB38B4108E47230 /* Pods_Aircraft.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aircraft.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		445488E5899AA8E1EA50E894 /* Pods-Aircraft.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aircraft.debug.xcconfig"; path = "Target Support Files/Pods-Aircraft/Pods-Aircraft.debug.xcconfig"; sourceTree = "<group>"; };
+		5CDAD12B2ACC80D400E76EB1 /* Aircraft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aircraft.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CDAD12E2ACC80D400E76EB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5CDAD1302ACC80D400E76EB1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5CDAD1352ACC80D400E76EB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CDAD1372ACC80D500E76EB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CDAD13A2ACC80D500E76EB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5CDAD13C2ACC80D500E76EB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CDAD1482ACC819200E76EB1 /* InformationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformationsViewController.swift; sourceTree = "<group>"; };
+		5CDAD1492ACC819200E76EB1 /* AbountAppViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbountAppViewController.swift; sourceTree = "<group>"; };
+		5CDAD14A2ACC819200E76EB1 /* AircraftsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AircraftsViewController.swift; sourceTree = "<group>"; };
+		5CDAD14B2ACC819200E76EB1 /* GameQuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameQuizViewController.swift; sourceTree = "<group>"; };
+		5CDAD14C2ACC819200E76EB1 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5CDAD1522ACC819B00E76EB1 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		5CDAD1552ACC81B000E76EB1 /* AircraftsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AircraftsCollectionViewCell.swift; sourceTree = "<group>"; };
+		5CDAD1572ACC825600E76EB1 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		5CDAD1592ACD37D300E76EB1 /* ObjectInformations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectInformations.swift; sourceTree = "<group>"; };
+		5CDAD15B2ACD623200E76EB1 /* InformationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationTableViewCell.swift; sourceTree = "<group>"; };
+		5CDAD15D2ACEB89D00E76EB1 /* QuizBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizBrain.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CDAD1282ACC80D400E76EB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47EB3B2B2B3473EC626DC4F9 /* Pods_Aircraft.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2ECF4FF59D4ADEBCCCB78D65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43BB45644CB38B4108E47230 /* Pods_Aircraft.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CDAD1222ACC80D400E76EB1 = {
+			isa = PBXGroup;
+			children = (
+				5CDAD12D2ACC80D400E76EB1 /* Aircraft */,
+				5CDAD12C2ACC80D400E76EB1 /* Products */,
+				84951507183B2D4A812E9B36 /* Pods */,
+				2ECF4FF59D4ADEBCCCB78D65 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5CDAD12C2ACC80D400E76EB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CDAD12B2ACC80D400E76EB1 /* Aircraft.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CDAD12D2ACC80D400E76EB1 /* Aircraft */ = {
+			isa = PBXGroup;
+			children = (
+				5CDAD1542ACC81A600E76EB1 /* Cells */,
+				5CDAD1472ACC814F00E76EB1 /* Extension */,
+				5CDAD1442ACC810200E76EB1 /* Controller */,
+				5CDAD1432ACC80F500E76EB1 /* View */,
+				5CDAD1422ACC80E400E76EB1 /* Model */,
+				5CDAD12E2ACC80D400E76EB1 /* AppDelegate.swift */,
+				5CDAD1302ACC80D400E76EB1 /* SceneDelegate.swift */,
+				5CDAD1372ACC80D500E76EB1 /* Assets.xcassets */,
+				5CDAD13C2ACC80D500E76EB1 /* Info.plist */,
+			);
+			path = Aircraft;
+			sourceTree = "<group>";
+		};
+		5CDAD1422ACC80E400E76EB1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5CDAD1522ACC819B00E76EB1 /* Models.swift */,
+				5CDAD1592ACD37D300E76EB1 /* ObjectInformations.swift */,
+				5CDAD15D2ACEB89D00E76EB1 /* QuizBrain.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5CDAD1432ACC80F500E76EB1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5CDAD1342ACC80D400E76EB1 /* Main.storyboard */,
+				5CDAD1392ACC80D500E76EB1 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5CDAD1442ACC810200E76EB1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5CDAD1492ACC819200E76EB1 /* AbountAppViewController.swift */,
+				5CDAD14A2ACC819200E76EB1 /* AircraftsViewController.swift */,
+				5CDAD1482ACC819200E76EB1 /* InformationsViewController.swift */,
+				5CDAD14B2ACC819200E76EB1 /* GameQuizViewController.swift */,
+				5CDAD14C2ACC819200E76EB1 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5CDAD1472ACC814F00E76EB1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5CDAD1572ACC825600E76EB1 /* Extensions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		5CDAD1542ACC81A600E76EB1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5CDAD1552ACC81B000E76EB1 /* AircraftsCollectionViewCell.swift */,
+				5CDAD15B2ACD623200E76EB1 /* InformationTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		84951507183B2D4A812E9B36 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				445488E5899AA8E1EA50E894 /* Pods-Aircraft.debug.xcconfig */,
+				3C4FBFDC37D281437C195995 /* Pods-Aircraft.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CDAD12A2ACC80D400E76EB1 /* Aircraft */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CDAD13F2ACC80D500E76EB1 /* Build configuration list for PBXNativeTarget "Aircraft" */;
+			buildPhases = (
+				AD46DEB3AC5BDB569EFB7943 /* [CP] Check Pods Manifest.lock */,
+				5CDAD1272ACC80D400E76EB1 /* Sources */,
+				5CDAD1282ACC80D400E76EB1 /* Frameworks */,
+				5CDAD1292ACC80D400E76EB1 /* Resources */,
+				EB051C4AE33D4A2A8E40802B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aircraft;
+			productName = Aircraft;
+			productReference = 5CDAD12B2ACC80D400E76EB1 /* Aircraft.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CDAD1232ACC80D400E76EB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					5CDAD12A2ACC80D400E76EB1 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 5CDAD1262ACC80D400E76EB1 /* Build configuration list for PBXProject "Aircraft" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CDAD1222ACC80D400E76EB1;
+			productRefGroup = 5CDAD12C2ACC80D400E76EB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CDAD12A2ACC80D400E76EB1 /* Aircraft */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CDAD1292ACC80D400E76EB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CEC31FE2AD2A6240000C7C9 /* LaunchScreen.storyboard in Resources */,
+				5C8771B12AD6A33E008184F5 /* Assets.xcassets in Resources */,
+				5CDAD1362ACC80D400E76EB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AD46DEB3AC5BDB569EFB7943 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Aircraft-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB051C4AE33D4A2A8E40802B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Aircraft/Pods-Aircraft-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Aircraft/Pods-Aircraft-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Aircraft/Pods-Aircraft-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CDAD1272ACC80D400E76EB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CDAD1562ACC81B100E76EB1 /* AircraftsCollectionViewCell.swift in Sources */,
+				5CDAD14F2ACC819300E76EB1 /* AircraftsViewController.swift in Sources */,
+				5CDAD1512ACC819300E76EB1 /* HomeViewController.swift in Sources */,
+				5CDAD1312ACC80D400E76EB1 /* SceneDelegate.swift in Sources */,
+				5CDAD14E2ACC819300E76EB1 /* AbountAppViewController.swift in Sources */,
+				5CDAD1532ACC819C00E76EB1 /* Models.swift in Sources */,
+				5CDC6A632AD17FAA00DA0226 /* AppDelegate.swift in Sources */,
+				5CDAD14D2ACC819300E76EB1 /* InformationsViewController.swift in Sources */,
+				5CDAD15E2ACEB89D00E76EB1 /* QuizBrain.swift in Sources */,
+				5CDAD1582ACC825600E76EB1 /* Extensions.swift in Sources */,
+				5CDAD15C2ACD623200E76EB1 /* InformationTableViewCell.swift in Sources */,
+				5CDAD15A2ACD37D300E76EB1 /* ObjectInformations.swift in Sources */,
+				5CDAD1502ACC819300E76EB1 /* GameQuizViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5CDAD1342ACC80D400E76EB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CDAD1352ACC80D400E76EB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CDAD1392ACC80D500E76EB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CDAD13A2ACC80D500E76EB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CDAD13D2ACC80D500E76EB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_ASSET_PATHS = "\"App/preview Content\"";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5CDAD13E2ACC80D500E76EB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_ASSET_PATHS = "\"App/preview Content\"";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CDAD1402ACC80D500E76EB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 445488E5899AA8E1EA50E894 /* Pods-Aircraft.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Aircraft/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Diyorbek.com.Aircraft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CDAD1412ACC80D500E76EB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C4FBFDC37D281437C195995 /* Pods-Aircraft.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Aircraft/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Diyorbek.com.Aircraft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CDAD1262ACC80D400E76EB1 /* Build configuration list for PBXProject "Aircraft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CDAD13D2ACC80D500E76EB1 /* Debug */,
+				5CDAD13E2ACC80D500E76EB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CDAD13F2ACC80D500E76EB1 /* Build configuration list for PBXNativeTarget "Aircraft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CDAD1402ACC80D500E76EB1 /* Debug */,
+				5CDAD1412ACC80D500E76EB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CDAD1232ACC80D400E76EB1 /* Project object */;
+}

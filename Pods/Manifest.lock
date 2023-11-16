@@ -1,0 +1,20 @@
+PODS:
+  - JDTabBarController (1.0.1)
+  - SnapKit (5.6.0)
+
+DEPENDENCIES:
+  - JDTabBarController
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - JDTabBarController
+    - SnapKit
+
+SPEC CHECKSUMS:
+  JDTabBarController: 3af1790227c640f78dd2f50d0133098bbe4d1440
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+
+PODFILE CHECKSUM: 11aa67e901a4b19925364524379cd73ef184d699
+
+COCOAPODS: 1.12.1
